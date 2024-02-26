@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge ONE</title>
+</head>
+<body>
+    <header>
+        <img class="imagem_logo" src="/public/logo_alura.png" alt="Logo Alura">
+    </header>
+    
+    <main>
+        <!-- Section for the decoder and buttons -->
+        <section>
+            <div class="text__principal">
+                <textarea class="start__text" maxlength="1000" placeholder="Digite seu texto"></textarea>
+            </div>            
+            <!-- Div for the alert -->
+            <div class="alert__text">
+                <img src="/public/!.png">
+                <a>Apenas letras minúsculas e sem acento.</a>
+            </div>
+            <!-- Div for the buttons -->
+            <div class="buttons">
+                <button class="buttons__Encrypt" type="button" onclick="Encrypt()">Cripitografar</button>
+                <button class="buttons__Decrypt" type="button" onclick="Decrypt()">Descripitografar</button>
+            </div>
+        </section>
+
+        <aside class="result">
+            <!-- This section is related to another part of the page -->
+            <div class="result__mensage">
+                <img  class="result__image" src="/public/alura-design-art.svg">
+                <h3 class="result__mensage__first">Nenhuma mensagem encontrada</h3>
+                <p class="result__mensage__second">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <div class="result__final">
+                <textarea class="result__challenge"></textarea>
+                <button class="result__copy">Copiar</button>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="start__footer">
+            <section class="section__footer">
+                <li>
+                    <a class="footer__github" href="https://github.com/herculesnatan/Challenge-ONE">
+                    <img src="public/github-mark.svg" width="20"> Github
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__linkedin" href="https://www.linkedin.com/in/herculesnatan/">
+                        <img src="public/icons8-linkedin.svg" width="20"> Linkedin</a>
+                </li>
+            </section>
+
+        <p>Developed by @herculesnatan</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
