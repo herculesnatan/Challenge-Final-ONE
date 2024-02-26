@@ -1,4 +1,4 @@
-
+// Code 
 function Encrypt() {
     let textoDigitado = document.querySelector('.start__text').value;
 
